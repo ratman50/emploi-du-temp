@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css" integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="style.css">
+    <title>Emploi du temps</title>
+</head>
+<body>
+    <div class="container">
+        <div class="menu">
+            <form class="box-search">
+                <input type="text" name="search" class="search-bar">
+                <div class="box-result-search">
+                    <div class="container-result"></div>
+                </div>
+            </form>
+            <div class="entities">
+                <div class="box enseignant active">
+                    <div class="up">
+                        <i class="fa-solid fa-person-chalkboard"></i>
+                        <div class="number"></div>
+                    </div>
+                    <div class="down">
+                        <div class="description">Enseign.</div>
+                        <div class="addEntite enseignant">+</div>
+                    </div>
+                </div>
+                <div class="box salle">
+                    <div class="up">
+                        <i class="fa-solid fa-house-user"></i>
+                        <div class="number"></div>
+                    </div>
+                    <div class="down">
+                        <div class="description">salles</div>
+                        <div class="addEntite enseignant">+</div>
+                    </div>
+                </div>
+                <div class="box classe">
+                    <div class="up">
+                        <i class="fa-solid fa-users"></i>
+                        <div class="number"></div>
+                    </div>
+                    <div class="down">
+                        <div class="description">classes</div>
+                        <div class="addEntite enseignant">+</div>
+                    </div>
+                </div>
+                <div class="box module">
+                    <div class="up">
+                        <i class="fa-solid fa-trash-can"></i>
+                        <div class="number"></div>
+                    </div>
+                    <div class="down">
+                        <div class="description">modules</div>
+                        <div class="addEntite enseignant">+</div>
+                    </div>
+                </div>
+
+                
+            </div>
+
+            
+            <div class="select">
+                <div class="dropdown dropdown-5">
+                    <p class="dropdown_title">enseignant</p>
+                    <ul class="dropdown_menu dropdown_menu-5">
+                        <li class="dropdown_item">Item 1</li>
+                        <li class="dropdown_item">Item 2</li>
+                        <li class="dropdown_item">Item 3</li>
+                        <li class="dropdown_item">Item 4</li>
+                        <li class="dropdown_item">Item 5</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+       
+        <div class="actvities">
+            <div class="activities__description">
+                <div>
+                    <h1 class="actvities__title">Planning: <span></span></h1>
+                    <div class="change-color">
+                        <div class="circle"></div>
+                    </div>
+                </div>
+                <p><span class="nbr-cours">2</span>cours</p>
+            </div>
+            <div class="horaire">
+                <div>8H</div>
+                <div>9H</div>
+                <div>10H</div>
+                <div>11H</div>
+                <div>12H</div>
+                <div>13H</div>
+                <div>14H</div>
+                <div>15H</div>
+                <div>16H</div>
+                <div>17H</div>
+            </div>
+            
+                <div class="days">
+                    <div>
+                        <div class="day">
+                            <h2>lundi</h2>
+                            <p class="add-planning">+</p>
+                        </div>
+                        <div class="matching"></div>
+                    </div>
+
+                    <div>
+                        <div class="day">
+                            <h2>mardi</h2>
+                            <p class="add-planning">+</p>
+                        </div>
+                        <div class="matching">
+                            <!-- <div class="plan"></div> -->
+                        </div>
+                    </div>
+
+                    <div>
+                        <div class="day">
+                            <h2>mercredi</h2>
+                            <p class="add-planning">+</p>
+                        </div>
+                        <div class="matching"></div>
+
+                    </div>
+
+                    <div>
+                        <div class="day">
+                            <h2>jeudi</h2>
+                            <p class="add-planning">+</p>
+                        </div>
+                        <div class="matching"></div>
+
+                    </div>
+                    <div>
+                        <div class="day">
+                            <h2>vendredi</h2>
+                            <p class="add-planning">+</p>
+                        </div>
+                        <div class="matching"></div>
+
+                    </div>
+
+                    <div>
+                        <div class="day">
+                            <h2>samedi</h2>
+                            <p class="add-planning">+</p>
+                        </div>
+                        <div class="matching"></div>
+
+                    </div>
+
+                    <div>
+                        <div class="day">
+                            <h2>dimanche</h2>
+                            <p class="add-planning">+</p>
+                        </div>
+                        <div class="matching"></div>
+
+
+                    </div>
+                </div>
+                
+            
+        </div>
+
+
+    </div>
+
+    <script src="script.js" type="module"></script>
+</body>
+</html>
